@@ -15,6 +15,7 @@ import org.apache.mahout.cf.taste.similarity.ItemSimilarity;
 
 public class ItemRecommend {
 	public static void main(String[] args) throws IOException, TasteException{
+		//Test by swlin on 2014/10/27'
 		DataModel dm = new FileDataModel(
 				new File("dataset/ratings_movies.csv"));
 		ItemSimilarity sim = new LogLikelihoodSimilarity(dm);
