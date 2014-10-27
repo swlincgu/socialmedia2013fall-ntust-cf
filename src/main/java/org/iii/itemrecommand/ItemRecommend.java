@@ -33,5 +33,6 @@ public class ItemRecommend {
 			}
 			x++;
 		}
+		System.out.printf("test");
 	}
 }
